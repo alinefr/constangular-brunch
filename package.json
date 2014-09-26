@@ -11,7 +11,6 @@
   "main": "./lib/index",
   "scripts": {
     "prepublish": "./node_modules/.bin/coffee -o lib/ src/",
-    "preinstall": "npm install --production --ignore-scripts",
     "postinstall": "./node_modules/.bin/coffee -o lib/ src/"
   },
   "engines": {
